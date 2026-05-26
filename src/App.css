@@ -1,0 +1,339 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: var(--bg-dark);
+  border-bottom: 1px solid var(--border-dark);
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: var(--accent-gold);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #a0a0a0;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--accent-neon);
+}
+
+.cart-btn {
+  background-color: var(--accent-gold);
+  color: var(--bg-dark);
+  padding: 0.5rem 1.5rem;
+  border-radius: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.cart-btn:hover {
+  background-color: #f0c84b;
+  transform: translateY(-2px);
+}
+
+.hero {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=1920');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(to bottom, rgba(10,10,10,0.8) 0%, rgba(10,10,10,0.2) 50%, rgba(10,10,10,1) 100%);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 800px;
+  margin-bottom: 6rem; 
+}
+
+.badge {
+  display: inline-block;
+  border: 1px solid var(--accent-neon);
+  color: var(--accent-neon);
+  padding: 0.3rem 1rem;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  background: rgba(0, 255, 204, 0.05);
+}
+
+.hero-content h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+.hero-content p {
+  color: #f0f0f0;
+  font-size: 1.15rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9), 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+
+.booking-bar {
+  position: absolute;
+  bottom: -40px; 
+  z-index: 3;
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+  background-color: rgba(20, 20, 20, 0.85);
+  backdrop-filter: blur(12px);
+  padding: 2rem 3rem;
+  border: 1px solid var(--border-dark);
+  border-top: 2px solid var(--accent-gold);
+  border-radius: 4px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+  width: 90%;
+  max-width: 1000px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.input-group label {
+  color: var(--accent-gold);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.input-group select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border-dark);
+  color: var(--text-light);
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  cursor: pointer;
+}
+
+.input-group select option {
+  background-color: var(--surface-dark);
+  color: var(--text-light);
+}
+
+.products-section {
+  padding: 6rem 3rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contact-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #0a0a0a;
+  border-top: 1px solid var(--border-dark);
+}
+
+.contact-section h2 {
+  color: var(--accent-gold);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-section p {
+  color: #a0a0a0;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: var(--surface-dark);
+  border: 1px solid var(--border-dark);
+  color: var(--text-light);
+  padding: 1rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border-radius: 2px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--accent-gold);
+}
+
+.submit-btn {
+  background-color: transparent;
+  color: var(--accent-gold);
+  border: 1px solid var(--accent-gold);
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.submit-btn:disabled {
+  border-color: #585757;
+  color: #555;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.submit-btn:not(:disabled):hover {
+  background-color: var(--accent-gold);
+  color: var(--bg-dark);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+}
+
+.submit-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contact-links a {
+  color: var(--text-light);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: var(--accent-gold);
+}
+
+.main-footer {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  margin-top: 3rem;
+  border-top: 1px solid var(--border-dark);
+  color: #666;
+  font-size: 0.85rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .booking-bar {
+    flex-direction: column;
+    align-items: stretch;
+    bottom: -60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-header {
+    padding: 1.5rem;
+  }
+  
+  .nav-links {
+    display: none;
+  }
+  
+  .hero-content h2 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+  }
+  
+  .products-section {
+    padding-top: 8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .products-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .booking-bar {
+    position: relative;
+    bottom: 0;
+    margin-top: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .hero {
+    min-height: 60vh;
+  }
+}

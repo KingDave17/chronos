@@ -1,0 +1,164 @@
+[
+  {
+    "id": "1",
+    "title": "The Pyramids at Dawn",
+    "era": "Past",
+    "year": "2560 BC",
+    "price": 12000,
+    "description": "Witness the final capstone being placed on the Great Pyramid of Giza. A luxury viewing deck is provided.",
+    "imageUrl": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "16",
+    "title": "Roman Industrial Age",
+    "era": "Alternate",
+    "year": "400 AD",
+    "price": 28000,
+    "description": "Travel to Timeline Rho-7 where Rome never fell and discovered steam power early. Witness mechanical chariots racing around a clockwork Colosseum.",
+    "imageUrl": "https://picsum.photos/seed/colosseum/800/600"
+  },
+  {
+    "id": "2",
+    "title": "Cyberpunk Tokyo",
+    "era": "Future",
+    "year": "2099 AD",
+    "price": 18500,
+    "description": "Immerse yourself in the neon-soaked streets of Neo-Tokyo. Includes VIP access to the Hover-Car races.",
+    "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "10",
+    "title": "The Viking Age",
+    "era": "Past",
+    "year": "850 AD",
+    "price": 14500,
+    "description": "Sail the fjords with legendary Norse explorers. Experience the Northern Lights without modern light pollution.",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "9",
+    "title": "Cybernetic Eden",
+    "era": "Alternate",
+    "year": "2050 AD",
+    "price": 22000,
+    "description": "A utopian timeline where nature and advanced cybernetics have perfectly merged. Explore glowing bioluminescent forests.",
+    "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "12",
+    "title": "Galactic Core Station",
+    "era": "Future",
+    "year": "4500 AD",
+    "price": 125000,
+    "description": "A luxury voyage to the massive space station orbiting the supermassive black hole at the center of the Milky Way galaxy.",
+    "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "3",
+    "title": "The Roaring Twenties",
+    "era": "Past",
+    "year": "1925 AD",
+    "price": 8500,
+    "description": "Attend a high-society jazz party in Gatsby-era New York. Authentic wardrobe provided upon temporal arrival.",
+    "imageUrl": "https://images.unsplash.com/photo-1519999482648-25049ddd37b1?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "17",
+    "title": "Saurian Metropolis",
+    "era": "Alternate",
+    "year": "2026 AD",
+    "price": 415000,
+    "description": "Visit Timeline Asteroid-Null. The K-T extinction never happened, and an advanced reptilian species built a utopian mega-city intertwined with ancient jungles.",
+    "imageUrl": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": "5",
+    "title": "Mars Colony Alpha",
+    "era": "Future",
+    "year": "2150 AD",
+    "price": 30000,
+    "description": "Experience zero-gravity luxury at the first established Martian resort. Includes guided rover tours of Olympus Mons.",
+    "imageUrl": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "7",
+    "title": "Renaissance Florence",
+    "era": "Past",
+    "year": "1492 AD",
+    "price": 9500,
+    "description": "Walk the streets of Florence at the height of the Renaissance. Private viewing of Da Vinci's workshop included.",
+    "imageUrl": "https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "13",
+    "title": "Atlantis Ascendant",
+    "era": "Alternate",
+    "year": "12000 BC",
+    "price": 350000,
+    "description": "Visit Timeline Sigma-9 where Atlantis never sank. Explore a breathtaking utopian metropolis powered by pure, sustainable crystal energy.",
+    "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "8",
+    "title": "Lunar Metropolis",
+    "era": "Future",
+    "year": "2300 AD",
+    "price": 45000,
+    "description": "Stay in the glittering glass domes of the Moon's capital city. Enjoy earth-rise dinners and low-gravity sports.",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "11",
+    "title": "The First Olympics",
+    "era": "Past",
+    "year": "776 BC",
+    "price": 11500,
+    "description": "Travel to ancient Olympia and witness the birth of athletic competition. VIP stadium seating and authentic ancient Greek attire provided.",
+    "imageUrl": "https://images.pexels.com/photos/164336/pexels-photo-164336.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": "6",
+    "title": "The Steampunk Timeline",
+    "era": "Alternate",
+    "year": "1888 AD",
+    "price": 15000,
+    "description": "Visit timeline Delta-4, where Victorian London runs entirely on advanced clockwork and steam technology.",
+    "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "15",
+    "title": "AI Utopia Prime",
+    "era": "Future",
+    "year": "3050 AD",
+    "price": 28000,
+    "description": "Visit a paradise planet engineered entirely by benevolent artificial intelligence. Experience perfect harmony between synthetic design and organic life.",
+    "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "4",
+    "title": "Dinosaur Photo Safari",
+    "era": "Past",
+    "year": "65M BC",
+    "price": 25000,
+    "description": "A protected, shielded temporal bubble tour through the late Cretaceous period. See T-Rex in their natural habitat.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "18",
+    "title": "The Da Vinci Skies",
+    "era": "Alternate",
+    "year": "1520 AD",
+    "price": 19500,
+    "description": "Experience an alternate Renaissance where Leonardo's flying machines were mass-produced. Take a wooden glider tour over the majestic skies of Florence.",
+    "imageUrl": "https://images.pexels.com/photos/631477/pexels-photo-631477.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": "14",
+    "title": "Golden Age of Piracy",
+    "era": "Past",
+    "year": "1715 AD",
+    "price": 13500,
+    "description": "Sail the crystal blue waters of the Caribbean aboard a legendary pirate galleon. Includes safe-zone treasure hunting and rum tasting.",
+    "imageUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=800"
+  }
+]
