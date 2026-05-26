@@ -4,9 +4,6 @@ Welcome to CHRONOS, my premium, futuristic E-Commerce React application.
 
 Instead of building a boring, standard online store that sells t-shirts or coffee mugs, I decided to build a high-end, luxury booking agency for **Time Travel Destinations**. Experience history not as it was written, but as it was lived!
 
-## 🚀 Live Demo
-*(Insert your live deployment link here once we launch!)*
-
 ## ✨ Features & UX Polish
 I spent a lot of time obsessing over the UI/UX details in this project to make it feel like a truly premium product:
 * **Data-Driven Architecture:** All 18 timelines (Past, Future, and Alternate) are rendered dynamically from a central `destinations.json` database. Adding a new era is as simple as adding a JSON object.
